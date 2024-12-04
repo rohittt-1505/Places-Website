@@ -1,0 +1,882 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'spartan',sans-serif;    
+}
+li {
+ list-style: none;
+        }
+
+
+
+.header {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 5px ;
+ background-color:white;
+ color: #fff;
+ height:80px;
+ 
+}
+
+        /* NAVIGATIONS MENU */
+#logo{
+    height: 40px;
+    width: 160px;
+    background-image: url(images/logo.jpeg);
+    background-size: cover;
+}
+.navigations {
+
+ display: flex;
+ gap:.7em;
+ font-size: 15px;
+ margin-left: 20px;
+ 
+ color: black;
+ 
+}
+
+.navigations li {
+ padding: 8px 14px;
+}
+.horizontal{
+    display: inline;
+    border-left: 2px solid #9b4335;
+    margin-top: 2px;
+    height: 28px;
+}
+.horizontal1{
+    display: inline;
+    border-left: 2px solid #701206;
+    margin-top: 2px;
+    height: 28px; 
+}
+
+/*icons*/
+.fa-bars {
+    color: black;
+    border: .1px solid grey;
+    border-radius: 2px; 
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    height: 23px;
+    width: 27px;
+    margin-top: -2px;
+    
+}
+
+.fa-user{
+    color: black;
+    border: .1px solid grey;
+    border-radius: 2px; 
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    height: 23px;
+    width: 27px;
+    
+}
+.fa-globe{
+    color: black;
+    border: .1px solid grey;
+    border-radius: 2px; 
+    padding-right: 28px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    height: 23px;
+    width: 27px;
+    
+}
+.fa-cart-shopping{
+    color: black;
+    border: .1px solid grey;
+    border-radius: 2px; 
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-bottom: 15px;
+    height: 23px;
+    width: 27px;    
+}
+.fa-angle-down{
+    margin-left: 5px;
+}
+
+.fa-folder{
+    color: white;
+    width: 10px;
+    margin-right: 10px;
+}
+.fa-location-dot{
+    color: white;
+}
+.fa-crosshairs{
+    color: white;
+}
+
+
+
+
+.iconlist{
+ display: flex;
+ font-size: 15px;
+ margin-top: 5px; 
+}
+
+
+.iconlist li {
+ padding: 1px 10px;
+ margin-left: -10px;
+}
+
+.txt33{
+    height: 23px;
+    width: 27px;
+    border: .1px solid grey;
+    border-radius: 2px; 
+    font-size: 20px;
+    padding-right: 28px;
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-bottom: 25px;
+}
+.addbtn{height: 32px;
+    width: 50px;
+    background-color:#5eca53;
+    margin-left: -10px;
+    border: none;
+    border-radius: 2px; 
+    
+}
+/*Search background*/
+#billboardbg{
+    height: 120%;
+    width: 100%;
+    background-image: url(images/times-square.jpg);
+    background-color: rgba(0,0,0,0.8);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode: darken;   
+}
+#headingtxt{
+    color: white;
+    text-align: center;
+    padding-top: 194px;
+    font-size: 60px;
+}
+#searchbox{
+    background-color:white;
+    height: 9%;
+    width: 47%;    
+    margin-top: 38px;
+    margin-left: 243px;   
+    border-radius: 3px;
+    border: none;
+}
+#searchbtn{
+    height: 9%;
+    width: 17%;
+    background-color:#2c48c3;
+    margin-left: 10px;
+    border: none;
+    border-radius: 2px; 
+}
+#searchtxt{
+    color: white;
+    font-size: 25px;
+    margin-top: -8px;
+}
+#refinetxt{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+#line1{
+    display: block;
+    height: 1px;
+    width: 100%;
+    border:none;
+    border-top: 30px solid white;
+    padding: 10px;
+    margin-top: 58px;  
+}
+#folderbtn{
+    height: 7%;
+    width: 5%;
+    background-color:#2c48c3;
+    margin-left: 580px;
+    border: none;
+    border-radius: 1px;
+}
+#locationsbtn{
+    height: 7%;
+    width: 5%;
+    background-color:#2c48c3;
+    margin-left: -5px;
+    border-left:.1px solid black;
+    border-right: .1px solid black;
+    border-top: none;
+    border-bottom: none;
+    
+    
+}
+#radiusbtn{
+    height: 7%;
+    width: 5%;
+    background-color:#2c48c3;
+    margin-left: -4px;
+    border: none;
+    border-radius: 1px;
+}
+/*navigating icons*/
+#navigatingiconsbg{
+    height: 200px;
+    width: 100%;
+    background-color: #f3f4f6;
+    
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: #ffffff;
+    box-shadow:  1px 1px 8px #999999;
+}
+.navigationicons {
+
+ display: flex;
+ gap:2.2em;
+ font-size: 15px;
+ margin: 20px 0px 0px 5px;
+ color: black;
+ 
+}
+
+.navigationicons li {
+ padding: 8px 12px;
+}
+
+.fa-chevron-left{
+    color: #d2dae7;
+    margin-top: 70px;
+}
+
+.fa-basket-shopping{
+    color: #527edf;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.fa-futbol{
+    color: #527edf;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.fa-plane-up{
+    color: #527edf;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.fa-truck{
+    color: #527edf;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.fa-briefcase{
+    color: #527edf;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.fa-book{
+    color: #527edf;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.fa-chevron-right{
+    color: #d2dae7;
+    margin-top: 70px;
+}
+
+#icontxt1{
+    color: #595f8f;
+    text-align: center;
+    margin-top: 35px;
+}
+
+ 
+/*places box background*/
+#placesboxbg{
+    height: 500px;
+    width: 100%;
+    background-color: lightgrey;
+    margin: 40px 0 0 0 ;
+}
+.placebox1{
+    height: 350px;
+    width: 300px;
+    box-shadow: 2px 2px 8px #999999;
+    border-radius: 10px;
+    
+}
+
+#bookmark{
+    height: 28px;
+    width: 28px;
+    background-image: url(images/bookmark.jpeg);
+    background-size: cover;
+    border-radius: 3px;
+    margin-left:  8px;
+}
+#bookmark1{
+    height: 15px;
+    width: 15px;
+    background-image: url(images/bookmark.jpeg);
+    background-size: cover;
+    border-radius: 2px;
+    
+}
+
+
+#placesbox {
+ display: flex;
+ gap:2.2em;
+ font-size: 15px;
+ margin-left: 5px;
+ color: black;
+ padding-top: 20px;
+}
+
+#placesbox li {
+ padding: 58px 8px;
+}
+
+/*burgerbox*/
+#burgerpic{
+    background-image: url(images/burger.jpg);
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#burgertxt{
+    height: 40%;
+    width: 100%;
+    background-color: white;
+}
+#burgertxt1{
+    text-align: center;
+}
+#burgertxt2{
+    text-align: center;
+}
+#burgerreview{
+    margin-top: -40px;
+    margin-left: 40px;
+    display: flex;
+    gap:1.2em;
+}
+#review1{
+    height: 20px;
+    width: 75px;
+    background-color: #ecf8ea;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+}
+#ratings4{
+    height: 20px;
+    width:110px;
+    background-image: url(images/4.5.jpg);
+    background-size: cover;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: -40px;
+}
+#ratings3{
+    height: 20px;
+    width:110px;
+    background-image: url(images/3.jpg);
+    background-size: cover;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: -40px;
+}
+#ratings45{
+    height: 19px;
+    width:100px;
+    background-image: url(images/4.5_prev_ui.png);
+    background-size: contain;
+    margin-left: 90px;
+    margin-top: 5px;
+}
+/*shoes*/
+#shoespic{
+    background-image: url(images/shoes.jpg);
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#shoestxt{
+    height: 40%;
+    width: 100%;
+    background-color: white;
+}
+#shoestxt1{
+    text-align: center;
+}
+#shoestxt2{
+    text-align: center;
+}
+#shoesreview{
+    display: flex;
+    gap:0.1em;
+    margin-top: -40px;
+}
+#review2{
+    height: 20px;
+    width: 100px;
+    background-color: #ecf8ea;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+}
+
+/*cycling*/
+
+#cyclepic{
+    background-image: url(images/cycling.jpg);
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#cycletxt{
+    height: 40%;
+    width: 100%;
+    background-color: white;
+}
+#cycletxt1{
+    text-align: center;
+}
+#cycletxt2{
+    text-align: center;
+}
+#cyclereview{
+    display: flex;
+    gap:0.1em;
+    margin-left: 60px;
+    margin-top: -40px;
+}
+/*travel*/
+
+
+#travelpic{
+    background-image: url(images/travel1.jpg);
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#traveltxt{
+    height: 40%;
+    width: 100%;
+    background-color: white;
+}
+#traveltxt1{
+    text-align: center;
+}
+#traveltxt2{
+    text-align: center;
+}
+#travelreview{
+    display: flex;
+    gap:0.1em;
+    margin-left: 22px;
+    margin-top: -40px;
+}
+#review3{
+    height: 20px;
+    width: 150px;
+    background-color: #ecf8ea;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+}
+
+/***********************************************/
+#line2{
+    display: block;
+    height: 1px;
+    width: 100%;
+    border:none;
+    border-top: 1px solid grey;
+    padding: 10px;
+    padding-top: 10px;
+     
+}
+#navigationplaces{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
+.navbox1{
+    height: 400px;
+    width: 400px;
+    background-color: coral;
+    box-shadow: 5px 5px 8px #888888;
+    border-radius: 5px;
+}
+
+#navplaces {
+ display: flex;
+ gap:2.2em;
+ font-size: 15px;
+ margin-left: 5px;
+ color: black;
+ padding-top: 40px;
+ margin-left: 25px;
+}
+
+#navplaces li {
+ padding: 8px 10px;
+}
+#navigationtxt{
+    margin-top: 20px;
+    margin-left: 40px;
+    position: absolute;
+}
+
+.fa-angle-left{
+    color: white;
+}
+.fa-angle-right{
+    color: white;
+}
+#left{
+    height: 45px;
+    width: 45px;
+    background-color: cadetblue;
+    border: none;
+    margin: 10 0 0 1255px;
+    border-radius: 4px;
+    
+    
+}
+#right{
+    height: 45px;
+    width: 45px;
+    background-color: cadetblue;
+    border: none;
+    margin-left: -7px;
+    border-radius: 4px;
+    border-left: 1px solid black;
+}
+
+/*connectitut*/
+#connectpic{
+    background-image: url(images/connectitus.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+#connecttxt1{
+    margin-top: -100px;
+    margin-left: 25px;
+    position: absolute;
+    color: white;
+}
+#connecttxt2{
+    margin-top: -60px;
+    margin-left: 25px;
+    position: absolute;
+    color: white;
+    font-size: 18px;
+}
+/*New Jersey*/
+#newjerseypic{
+    background-image: url(images/NewJersey1.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+#newjerseytxt1{
+    margin-top: -100px;
+    margin-left: 25px;
+    position: absolute;
+    color: white;
+}
+#newjerseytxt2{
+    margin-top: -60px;
+    margin-left: 25px;
+    position: absolute;
+    color: white;
+    font-size: 18px;
+}
+/*New York*/
+#newyorkpic{
+    background-image: url(images/Newyork.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+#newyorktxt1{
+    margin-top: -100px;
+    margin-left: 25px;
+    position: absolute;
+    color: white;
+}
+#newyorktxt2{
+    margin-top: -60px;
+    margin-left: 25px;
+    position: absolute;
+    color: white;
+    font-size: 18px;
+}
+
+/**********************************/
+/*registerbox*/
+#placestext{
+  text-align: center;
+}
+#registerbox{
+  height:320px;
+  width: 100%;
+  background-image: url(images/World_map.png);
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-blend-mode: multiply;
+  background-color: #344dc4;
+}
+#registerline{
+  color: white;
+  text-align:center;
+  padding-top: 70px;
+}
+#registerline1{
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+}
+#registerbtn{
+  height: 40px;
+  width: 250px;
+  color:#fcfff8;
+  margin: 30px 560px;
+}
+#btntxt{
+  text-align: center;
+  color:#344cc4;
+  font-size: 22px;
+}
+/**********************************/
+/* footer */
+        *, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.footer {
+  display: flex;
+  height: 250px;
+  flex-flow: row wrap;
+  
+  padding-top: 20px;
+  background-color:#161328;
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer > * {
+  flex: 100%;
+  
+}
+
+.footer__addr {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#logo1{
+    margin-top: 30px;
+    height: 40px;
+    width: 220px;
+    background-image: url(images/logo1.jpeg);
+    background-size: cover;
+}
+#latesttxt{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: white;
+}
+#getintouchtxt{padding-top: 30px;
+    padding-bottom: 10px;
+    color: white;
+}
+#ftrtxt1{
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+        
+}
+#ftrtxt2{
+    margin-top: 13px;
+    color: white;
+}
+
+#ftrmail{
+    background-color: #5a0c00;
+    height: 40px;
+    width: 80px;    
+    margin-left: 20px;
+    display:inline-block;   
+    border: none;
+    
+}
+.contactus {
+    
+    height: 40px;
+    width: 100px;
+    background-color:#63c25c;
+    margin: 10px -5px;
+    border: none;
+    border-radius: 5px; 
+     
+}
+
+
+
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  line-height: 1.3em;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer__nav {
+  display: flex;
+    flex: 3 80px;
+}
+.footer__nav > * {
+  margin-left: 100px;
+  
+}
+
+#list1 {
+  margin-top: 10px;
+  color: white;
+}
+
+#burgerlogo{
+    height: 55px;
+    width: 80px;
+    background-image: url(images/burger.jpg);
+    background-size: contain;
+    border-radius: 5px;
+    
+}
+.burgerlogotxt{
+    color: green;
+    margin-left: 90px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    display:inline-flex;
+}
+
+
+#list2  {
+  color: white;
+}
+
+.footer__addr {
+    flex: 2 0px;
+  }
+
+/*footerbar*/
+.ftrbar {
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+    background-color:#1f1c31;
+    color: #fff;
+}
+#copyrighttxt{
+    margin-left: 20px;
+    
+}
+
+.ftrbarlist {
+    display: flex;
+    gap: 0em;
+    font-size: 15px;
+    margin: 25px 0px 0 0 ;
+    margin-left: 540px;
+}
+.ftrbarlist li:hover {
+    background-color:#fc0162;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.ftrbarlist li {
+    padding: 1px 12px;
+}
+
+#ftrlogolist{
+    display: flex;
+    gap: 1em;
+    padding: 10px 10px;
+}
+
+#logobg{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.fa-facebook-f{
+    color: #1f1c31;
+    padding: 7px 0 0 10px;
+}
+.fa-twitter{
+    color: #1f1c31;
+    padding: 7px 0 0 7px;
+}
+.fa-youtube{
+    color: #1f1c31;
+    padding: 7px 0 0 5px;
+}
+.fa-basketball{
+    color: #1f1c31;
+    padding: 7px 0 0 7px;
+}
